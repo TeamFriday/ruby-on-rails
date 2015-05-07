@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing User Signups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Phone no</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>User type</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_signups.each do |user_signup| %>
+      <tr>
+        <td><%= user_signup.name %></td>
+        <td><%= user_signup.phone_no %></td>
+        <td><%= user_signup.email %></td>
+        <td><%= user_signup.password %></td>
+        <td><%= user_signup.user_type %></td>
+        <td><%= link_to 'Show', user_signup %></td>
+        <td><%= link_to 'Edit', edit_user_signup_path(user_signup) %></td>
+        <td><%= link_to 'Destroy', user_signup, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User signup', new_user_signup_path %>
