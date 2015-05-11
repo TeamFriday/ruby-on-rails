@@ -168,7 +168,7 @@
 	header p {
 		color: #858585;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 100px 0;
 	}
 
 	header h2 + p {
@@ -182,6 +182,7 @@
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
+
 
 	header h4 + p,
 	header h5 + p,
@@ -203,6 +204,7 @@
 
 		header.major p {
 			font-size: 1.5em;
+			margin-top: 2px;
 		}
 
 /* Form */
@@ -1136,7 +1138,7 @@
 
 	#footer {
 		background: #383b43;
-		padding: 6em 0em 4em;
+		padding: 20px;
 	}
 
 		#footer h2, #footer h3, #footer h4 {
