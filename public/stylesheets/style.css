@@ -22,7 +22,7 @@
 			animation: none !important;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
-			-o-transition: none !important;
+			-o-transition: none !important;76
 			-ms-transition: none !important;
 			transition: none !important;
 		}
@@ -794,7 +794,8 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3cadd4;
+		/*background-color: #3cadd4;*/
+		background-color: #add43c;
 		border-radius: 30px;
 		border: 0;
 		color: #ffffff !important;
@@ -969,7 +970,8 @@
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
+			float: right;
+			margin: 30px 20px 0 0;
 			right: 3em;
 			vertical-align: middle;
 		}
@@ -1033,7 +1035,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
+		background-image: url(../images/dark_tint.png), url(../images/building.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;

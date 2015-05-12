@@ -8,9 +8,13 @@
 						<li>
 							<%= link_to 'home', root_url %>
 							</li>
-						<li><a href="generic.html">Listings</a></li>
-						<li><a href="elements.html">Elements</a></li>
-						<li><a href="#" class="button special">Sign Up</a></li>
+						<li>
+							<%= link_to 'Listings', properties_path %>
+							</li>
+
+						<li>
+							<%= link_to 'sign up', new_user_signup_path, { :class => 'button special'} %>
+							</li>
 					</ul>
 				</nav>
 			</header>
@@ -64,23 +68,23 @@
 				<div class="container">
 					<header class="major">
 						<h2>Its all about the users</h2>
-						<p>curated feedback from some of our beta users.</p>
+						<p> feedback from some of our users.</p>
 					</header>
 					<section class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
+								<img src="images/person1.jpg" alt="" />
 								<h4>Maggie</h4>
 								<p>I found the app really easy to use and I encourage the team to keep it up</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
+								<img src="images/person2.jpg" alt="" />
 								<h4>Chris</h4>
 								<p>I loved the vision, glad I took part in the ux research</p>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Vivian</h4>
+								<img src="images/person3.jpg" alt="" />
+								<h4>Joe</h4>
 								<p>Just upgraded from a kabambe phone and am looking forward to using the app.</p>
 							</section>
 						</div>

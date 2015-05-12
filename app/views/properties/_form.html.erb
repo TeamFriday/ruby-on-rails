@@ -1,41 +1,57 @@
-<%= form_for(@property) do |f| %>
-  <% if @property.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@property.errors.count, "error") %> prohibited this property from being saved:</h2>
+<!-- Three -->
+      <section id="three" class="wrapper style3 special">
+        <div class="container">
+          <header class="major">
+            <h2>Create new Listing</h2>
+          </header>
+        </div>
+        <div class="container 50%">
+            <div class="row uniform">
 
-      <ul>
-      <% @property.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+            <%= form_for(@property) do |f| %>
+              <% if @property.errors.any? %>
+                <div id="error_explanation">
+                  <h2><%= pluralize(@property.errors.count, "error") %> prohibited this property from being saved:</h2>
 
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :location %><br>
-    <%= f.text_field :location %>
-  </div>
-  <div class="field">
-    <%= f.label :space_size %><br>
-    <%= f.text_field :space_size %>
-  </div>
-  <div class="field">
-    <%= f.label :price %><br>
-    <%= f.text_field :price %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
-  </div>
-  <div class="field">
-    <%= f.label :image_url %><br>
-    <%= f.text_field :image_url %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+                  <ul>
+                  <% @property.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                  <% end %>
+                  </ul>
+                </div>
+              <% end %>
+
+              <div class="12u$">
+                <%= f.label :title %><br>
+                <%= f.text_field :title %>
+              </div>
+              <div class="12u$">
+                <%= f.label :location %><br>
+                <%= f.text_field :location %>
+              </div>
+              <div class="12u$">
+                <%= f.label :space_size %><br>
+                <%= f.text_field :space_size %>
+              </div>
+              <div class="12u$">
+                <%= f.label :price %><br>
+                <%= f.text_field :price %>
+              </div>
+              <div class="12u$">
+                <%= f.label :description %><br>
+                <%= f.text_area :description %>
+              </div>
+              <div class="12u$">
+                <%= f.label :image_url %><br>
+                <%= f.text_field :image_url %>
+              </div>
+              <div class="actions">
+                <%= f.submit %>
+              </div>
+            <% end %>
+            
+            </div>
+
+        </div>
+
+    </section>
