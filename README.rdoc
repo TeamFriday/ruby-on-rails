@@ -1,28 +1,11 @@
-== README
+# House hunter
+Rails App to help the busy Nairobi resident find the perfect home.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Why
+Finding a house should never be difficult but it is, so we brain stormed on the best way to do it and this is the result.
 
-Things you may want to cover:
+## How
+Link house caretakers directly to house hunters. Browse through recommended homes or wait for a notification when your dream home is available
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Technology
+Built on ruby on rails and basic bootstrap for css styling.
