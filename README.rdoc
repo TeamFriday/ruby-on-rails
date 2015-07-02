@@ -1,11 +1,11 @@
-# House hunter
+== House hunter
 Rails App to help the busy Nairobi resident find the perfect home.
 
-## Why
+=== Why
 Finding a house should never be difficult but it is, so we brain stormed on the best way to do it and this is the result.
 
-## How
+=== How
 Link house caretakers directly to house hunters. Browse through recommended homes or wait for a notification when your dream home is available
 
-## Technology
+=== Technology
 Built on ruby on rails and basic bootstrap for css styling.
